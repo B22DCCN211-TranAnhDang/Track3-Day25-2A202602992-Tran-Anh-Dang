@@ -192,7 +192,8 @@ Nếu Part C chưa xong thì vẫn lấy được 4 điểm test của Part G.
 ## 8. Nộp bài
 
 Repo (hoặc zip) gồm: code đã hoàn thành, `configs/gameday.yaml`, `reports/REPORT.md` (+ hình), `reports/scoreboard.json`
-từ `make grade`. Grader chạy: `pip install -e ".[dev]" && make grade` trên máy sạch.
+từ `make grade`. Thư mục `reports/` **không** bị gitignore — hãy commit cả nó (lưu ý `make clean` xóa hình và CSV
+trong đó). Grader chạy: `pip install -e ".[dev]" && make grade` trên máy sạch.
 
 ## 9. Rubric (100 điểm)
 

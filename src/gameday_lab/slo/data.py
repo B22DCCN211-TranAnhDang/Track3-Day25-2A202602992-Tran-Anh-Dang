@@ -76,7 +76,7 @@ def _binomial_approx(rng: random.Random, n: int, p: float) -> int:
             k += 1
             prod *= rng.random()
         return k
-    return max(0, int(round(rng.gauss(mu, math.sqrt(mu * (1 - p))))))
+    return max(0, round(rng.gauss(mu, math.sqrt(mu * (1 - p)))))
 
 
 def write(out_dir: str | Path = "data", seed: int = 2025, incidents: list[Incident] | None = None,
