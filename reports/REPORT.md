@@ -1,7 +1,7 @@
 # Lab 25B — Report
 
 **Họ tên / nhóm:** Trần Anh Đăng — **MSV:** 2A202602992  
-**Commit:** Bản làm việc chưa commit; chốt hash khi nộp bài. **Điểm tự động:** 84/88 (public seed 25; 4 điểm dữ liệu ẩn chưa chấm).
+**Commit:** `c12cffb` — commit chứa toàn bộ code, cấu hình và artifacts được chấm. **Điểm tự động:** 84/88 (public seed 25; 4 điểm dữ liệu ẩn chưa chấm).
 
 
 ## 1. Kết quả Game Day
