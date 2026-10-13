@@ -53,7 +53,7 @@ client:
 # wrong_answers_by_reason, tune each value and justify it in report section 8.
 # ----------------------------------------------------------------------------
 cache:
-  similarity_threshold: 0.80
-  ttl_s: 600
-  max_stale_s: 0
+  similarity_threshold: 0.97   # tight enough to avoid other_question wrong answers
+  ttl_s: 60                    # shorter TTL limits outdated answers for unannounced policy changes
+  max_stale_s: 200             # covers the 120s outage (t=240-360) with margin
   max_entries: 500
